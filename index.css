@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: rgb(219, 241, 241);
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 1px;
+}
+
+textarea {
+    resize: none;
+    background-image: linear-gradient(to right bottom, #1d3b47, #3e6d81);
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    padding: 10px;
+    color: ivory;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+textarea:focus {
+    box-shadow: rgb(205 255 249) 0px 1px 20px 5px, rgb(202 250 245 / 78%) 0px -1px 24px,
+        rgb(197 199 199 / 10%) 0px 0px 56px;
+    outline: none;
+    border: none;
+}
+
+label {
+    background: #3a6577;
+    color: ivory;
+    font-size: 20px;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+::placeholder {
+    color: rgb(211, 211, 202);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgb(211, 211, 202);
+}
+
+::-ms-input-placeholder {
+    color: rgb(211, 211, 202);
+}
+
+textarea::-webkit-scrollbar {
+    border-radius: 15px;
+}
+
+textarea::-webkit-scrollbar-track {
+    border-radius: 15px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 15px;
+    border: none;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(152, 187, 187);
+    gap: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
