@@ -15,4 +15,4 @@ function textAreaSize(minRows, maxRows) {
     })
 }
 
-textAreaSize(4, 12);
+textAreaSize(4, 8);
